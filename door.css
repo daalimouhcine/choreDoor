@@ -1,0 +1,117 @@
+/*----- start global style -----*/
+* {
+    margin:0;
+    padding:0;
+}
+/*----- end global style -----*/
+
+body {
+    background-color:#010165;
+    font-family:"Work Sans";
+}
+
+/*----- start styling header -----*/
+
+#header #logo {
+    background-color:#0ff;
+    text-align:center;
+}
+
+#title {
+    text-align:center;
+    margin:30px 0;
+}
+#title h3 {
+    display:inline;
+    font-size:24px;
+    color:#0ff;
+}
+
+/*----- end styling header -----*/
+
+
+/*----- start styling instructions -----*/
+
+.instructions-row {
+    width:400px;
+    margin:0 auto;
+}
+.instructions-number {
+    font-size:38px;
+    padding-right:20px;
+    color:#0ff;
+}
+.instructions-text {
+    padding:10px;
+    color:white;
+}
+
+/*----- end styling instructions -----*/
+
+
+/*----- start styling doors -----*/
+
+#door-row {
+    text-align:center;
+    margin:20px;
+}
+
+.door-frame {
+    padding:10px;
+    cursor:pointer;
+}
+
+/*----- end styling doors -----*/
+
+
+/*----- start styling button -----*/
+
+#start {
+    margin:auto;
+    width:120px;
+    height:43px;
+    background-color:orangered;
+    padding-top:18px;
+    font-weight:500;
+    font-size:20px;
+    text-align:center;
+    margin-bottom:20px;
+    color:#010165;
+    cursor:pointer;
+}
+
+/*----- end styling button -----*/
+
+
+
+/*----- start styling score div -----*/
+
+#all-score {
+    color:#010165;
+    text-align:center;
+    width:400px;
+    margin:10px auto; 
+
+}
+#score {
+    background-color:#0ff;
+    height:80px;
+    width:80px;
+    display:inline-block;
+    margin-right:50px;
+    color:black;
+    font-size:65px;
+    font-weight:700;
+}
+#high-score {
+    background-color:#0ff;
+    height:80px;
+    width:80px;
+    display:inline-block;
+    margin-left:50px;
+    color:black;
+    font-size:65px;
+    font-weight:700;
+}
+
+/*----- end styling score div -----*/
