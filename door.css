@@ -8,6 +8,7 @@
 body {
     background-color:#010165;
     font-family:"Work Sans";
+    overflow-x:hidden;
 }
 
 /*----- start styling header -----*/
@@ -33,7 +34,7 @@ body {
 /*----- start styling instructions -----*/
 
 .instructions-row {
-    width:400px;
+    width:350px;
     margin:0 auto;
 }
 .instructions-number {
@@ -94,7 +95,7 @@ body {
 #all-score {
     color:#010165;
     text-align:center;
-    width:400px;
+    width:350px;
     margin:10px auto; 
     display:flex;
     flex-direction:row;
@@ -132,3 +133,12 @@ body {
 }
 
 /*----- end styling score div -----*/
+
+
+
+
+/*----- start media responsive -----*/
+
+
+
+/*----- end media responsive -----*/
