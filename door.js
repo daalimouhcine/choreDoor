@@ -79,7 +79,7 @@ const randomChoreDoorGenerator = () => {
 door1.onclick = () => {
     if(isPlaying && !isClicked(door1)) {
         door1.src = openDoor1;
-        playDoor(door1);
+        playDoor(door1)
     }
 }
 door2.onclick = () => {
@@ -108,7 +108,7 @@ const startRound = () => {
     door3.src = closedDoorPath;
     numClosedDoors = 3;
     isPlaying = true;
-    startButton.innerHTML = "Good luck!";
+    startButton.innerHTML = "Good Luck!";
     randomChoreDoorGenerator();
 }
 
