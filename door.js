@@ -108,6 +108,7 @@ const startRound = () => {
     door3.src = closedDoorPath;
     numClosedDoors = 3;
     isPlaying = true;
+    startButton.style.height = "63px";
     startButton.innerHTML = "Good Luck!";
     randomChoreDoorGenerator();
 }
@@ -115,9 +116,11 @@ const startRound = () => {
 //if the player finish.
 const gameOver = (str) => {
     if(str === "Win") {
+        startButton.style.height = "87px";
         startButton.innerHTML = "You win! Play again?";
         getYourScore();
     } else {
+        startButton.style.height = "87px";
         startButton.innerHTML = "Game over! Play again?"
         score = 0;
         sco.innerHTML = score;

@@ -2,6 +2,7 @@
 * {
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 /*----- end global style -----*/
 
@@ -70,7 +71,7 @@ body {
 #start {
     margin:auto;
     width:120px;
-    height:53px;
+    height:63px;
     background-color:orangered;
     border-radius:10px;
     padding-top:18px;
